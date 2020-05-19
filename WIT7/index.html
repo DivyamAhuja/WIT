@@ -23,11 +23,11 @@
         </style>
         <script>
             function validateForm(){
-                var name = $("#name");
+                var name = document.getElementById("#name");
                 if(!/^[a-zA-Z]+\s?[a-zA-Z]$/.test(name))
                     return false;
                     
-                var phone = $("#phone");
+                var phone = document.getElementById("#phone");
                 if(phone < 0 || phone > 9999999999)
                     return false;
                 return true;
