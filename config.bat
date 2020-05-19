@@ -1,0 +1,2 @@
+setx PHP_INI_SCAN_DIR %cd%
+se PHP_INI_SCAN_DIR=%cd%

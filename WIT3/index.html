@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML5 forms
+        </title>
+        <style>
+
+            .container{
+                margin: 0 auto;
+                width: auto;
+            }
+            form{
+                width:fit-content;
+                margin: 0 auto;
+            }
+            .formInput {
+                padding: 3px;
+            }
+            .formInput label{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <h1 style='text-align: center;'>Student Form</h1>
+            <form>
+                <div class='formInput'>
+                    <label for='name'>Name:&nbsp;</label>
+                    <input type='text' name='name' id='name' placeholder="Name">
+                </div>
+                <div class='formInput'>
+                    <label for='address'>Address:&nbsp;</label>
+                    <textarea name='address' id='address' placeholder="Address"></textarea>
+                </div>
+                <div class='formInput'>
+                    <label for='phone'>Phone Number:&nbsp;</label>
+                    <input type='tel' name='tel' id='phone' placeholder="Phone Number">
+                </div>
+                <div class='formInput'>
+                    <label for='email'>Email:&nbsp;</label>
+                    <input type='email' name='email' id='email' placeholder="Email">
+                </div>
+                <div class='formRadio'>
+                    <div>
+                        Gender:
+                    </div>
+                    <label for='male'>Male:&nbsp;</label>
+                    <input type='radio' value='male' name='sex' id='male'>
+                    <label for='female'>Female:&nbsp;</label>
+                    <input type='radio' value='female' name='sex' id='female'>
+                </div>
+                <div class='formInput'>
+                    <label for='dob'>Date of Birth:&nbsp;</label>
+                    <input type='date'>
+                </div>
+                <div class='formCheckbox'>
+                    <div>
+                        Hobbies:
+                    </div>
+                    <label for='programming'>Programming:&nbsp;</label>
+                    <input type='checkbox' id='programming' name='programming' value='programming'>
+
+                    <label for=painting'>Painting:&nbsp;</label>
+                    <input type='checkbox' id='painting' name='painting' value='programming'>
+
+                    <label for='music'>Music:&nbsp;</label>
+                    <input type='checkbox' id='music' name='music' value='music'>
+                </div>
+                <div style='text-align: center; padding: 3px'>
+                    <input type='submit' value='Submit'>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+<!--
+<div>
+    <label for=''></label>
+    <input>
+</div>
+
+-->
